@@ -15,7 +15,7 @@ twice.
 #include <stdio.h>
 #include <stdlib.h>
 
-void inicializar();
+void inicialization();
 void fill_array_uniques(int a[]);
 void print_array(int a[]);
 
@@ -24,12 +24,12 @@ void print_array(int a[]);
 void main(void){
 	int array[10];
 	
-	inicializar();
+	inicialization();
 	fill_array_uniques(array);
 	print_array(array);
 }
 
-void inicializar(){
+void inicialization(){
 	time_t t;
 	srand((unsigned)time(&t));
 }
